@@ -1,0 +1,145 @@
+//possitive,negative or zero
+class type
+{
+public static void main()
+{
+int n;
+if(n<0)
+{
+system.out.println("negative");
+}
+elseif(n>0)
+{
+system.out.println("possitive");
+}
+else
+{
+system.out.println("zero");
+}
+}
+}
+
+
+//odd or even
+class type
+{
+public static void main()
+{
+int n;
+if(n%2==0)
+{
+system.out.println("even");
+}
+else
+{
+syestem.out.println("odd");
+}
+}
+}
+
+
+
+//class comma
+{
+public static void main(string[] arg)
+{
+if(arg.legnth==0)
+{
+system.out.println("No values");
+}
+else
+{
+for(string i:arg)
+{
+system.out.println(i+",");
+}
+}
+}
+}
+
+
+
+//display the characters in alphabetical order
+class alpha
+{
+public static void main(string[],arg)
+{
+char var1,var2;
+var1='a';
+var2='e'
+if(var1>var2)
+{
+system.out.println(var2+","+var1);
+}
+else
+{
+system.out.println(var1+","+var2);
+}
+}
+}
+
+
+//character type
+class char
+{
+public static void main(string[] args)
+{
+scanner scanner=new scanner(system.in);
+char char1=scanner.next().charAt(0);
+if((char1>=48)&&(char1<=57))||(char1==45)
+{
+system.out.println("char is digit");
+}
+if((char1>='a')&&(char1<='z'))||((char1>='A')&&(char1<='Z'))
+{
+system.out.println("char is alphabet");
+}
+else
+{
+sydtem.out.println("special character");
+}
+}
+}
+
+
+
+//percentage of interest based on the conditions
+class gender
+{
+public static void main(string[] args)
+{
+string genter=args[0];
+int age=Integer.parseInt(age[1]);
+if(args.length==0)
+{
+system.out.println("empty arguments");
+}
+else{
+if(genter.equals("male")||genter.equals("female")
+{
+if((age>=1)&&(age<=120))
+{
+if(genter.equals(female)&&(age>=1)&&(age<=58)){
+system.out.println("interest=8.2%");
+}
+elseif(genter.equals(female)&&(age>=59)&&(age<=120)){
+system.out.println("interest=7.6%);
+}
+elseif(genter.equals(male)&&(age>=1)&&(age<=60)){
+system.out.println("interest=9.2");
+}
+elseif(genter.equals(male)&&(age>=61)&&(age<=120)){
+system.out.println("interest=9.3");
+}
+}
+}
+}
+
+
+
+
+///
+
+
+
+
