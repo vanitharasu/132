@@ -1,1 +1,33 @@
+//print Wipro Technologies Bangalore
+class basics
+{
+public static void main(string arg[])
+arg[0]=Wipro;
+arg[1]=Bnagalore;
+{
+system.out.println(arg[0]+"Technologies");
+system.out.println(arg[1]);
+}
+}
+
+//print welcome message
+class welcome
+{
+public static void main(string arg[])
+{
+system.out.println("Welcome"+arg[2]);
+}
+}
+
+
+//sum of 2 numbers
+class sum
+{
+public static void main(string arg[])
+{
+syesten.out.println(arg[0]+arg[1]);
+}
+}
+
+
 
