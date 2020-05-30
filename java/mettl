@@ -1,0 +1,47 @@
+//is even
+public class even{
+int input1;
+scanner s=new scanner(system.in)
+n=s.nextInt();
+if((input1%2==0)&&(input1<=0)
+{
+system.out.println("return 2");
+}
+else
+{
+system.out.println("return 1");
+}
+}
+
+//is odd
+public class odd{
+int number1;
+scanner s=new scanner(system.in)
+n=s.nextInt();
+if((input1!=0)&&(input1>=o))
+{
+system.out.println("return 2");
+}
+else
+{
+system.out.println("return 1");
+}
+}
+
+//last digit of a number
+public class lastdigit{
+public stativ void main(string[] args)
+int number,last_digit;
+scanner s=new scanner(sysem.in);
+number=s.nextInt()
+if(number%2==0)
+{
+number=number*-1;
+}
+system.out.println("last digit of a number is");
+}
+
+
+
+
+
