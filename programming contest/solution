@@ -1,0 +1,11 @@
+public static int minimizebias(list<integer>ratings){
+int sum=0;
+int len=ratings.size();
+collections.sort(ratings);
+for(int i=0;i<len-1;i+=2){
+int diff=ratings.get(i+1)-ratings,(i);
+sum+=diff;
+}
+return sum;
+}
+}
