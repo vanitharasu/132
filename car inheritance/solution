@@ -1,0 +1,46 @@
+class WagonR extends car
+{
+int mil;
+public WagonR(int n)
+{
+super(false,"4");
+this.mil=n;
+}
+public string getmileage()
+{
+string s=new string();
+s=mil+"kmpl";
+return s;
+}
+}
+class hondacity extends car{
+int mil;
+public hondacity (int n)
+{
+super(true,"4");
+mil=n;
+}
+public string getmilwage()
+{
+string s=new string();
+s=mil+"kmpl";
+return s;
+}
+}
+class innovacrysta extends car
+{
+int mil;
+public innovacrysta(int n)
+{
+super(false,"6");
+mil=n;
+}
+public string getmileage()
+{
+string s=new string();
+s=mil+"kmpl";
+return s;
+}
+}
+
+
