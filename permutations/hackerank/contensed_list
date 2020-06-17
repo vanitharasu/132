@@ -1,0 +1,15 @@
+class result{
+public static singlyLinkedListNode head){
+singlyLinkedListNode node=head;
+singlylinkedlist list=newsinglylinkedlist();
+HashSet<integer>set=new hashset<integer>();
+while(node!=null){
+if(!set.contains(node.data)){
+set.add(node.data);
+list.insertNode(node.data);
+}
+node=node.next;
+}
+return list.head;
+}
+}
