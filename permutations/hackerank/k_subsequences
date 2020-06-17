@@ -1,0 +1,14 @@
+public static long ksub(int k,List<integer>nums){
+int [] sum=new int[nums.size[]];
+long count=0;
+sum[0]=nums.get(0);
+for(int i=;i<nums.size();i++){
+int mod=sum[i]%k;
+if(mod==0)
+count++;
+count+=val[mod];
+val[mod]+=1;
+}
+return count;
+}
+}
