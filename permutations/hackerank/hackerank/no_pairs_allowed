@@ -1,0 +1,17 @@
+public static list<integer>
+minimalOperations(List<string>words){
+List<integer>is=new arrayList<integer>();
+int flag;
+for(string str:words){
+flag=0;
+for(int i=0;i<str.length()-1;i++){
+if(str.CharAt(i)==str.charAt(i+1)){
+flag+=1;
+i++;
+}
+}
+is.add(flag);
+}
+return is;
+}
+}
